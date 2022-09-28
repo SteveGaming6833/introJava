@@ -39,14 +39,14 @@ Iedere keer als de programma wordt uitgevoerd worden de float variabelen andere 
 void draw(){
 //We beginnen natuurlijk met de speluitleg.
 //Ik gebruik frameCount voor tijd want het werkt voor mij veel makkelijker.
-  if(frameCount <= 190){
+  /*if(frameCount <= 190){
     textSize(40);
     text("Zet jouw muis in de groene vierkanten",75,290);
     text("voordat ze verdwijnen!",190,350);
     if(frameCount == 190){
       background(213,0,0);
     }
-  }
+  }*/
 
 //Dit is de eerste vierkant.
   if(frameCount == 300){
@@ -124,7 +124,7 @@ Dit zal ook zo zijn voor de volgende groene vierkanten maar met reaction2 enz.
       background(0,164,0);
       fill(0,255,0);
       textSize(70);
-      text("Gelukt!",280,250);
+      text("Gelukt!",275,250);
       textSize(40);
       text("Alle vijf vierkanten gecheckt!",150,400);
 //Niet alle vijf vierkanten check.
